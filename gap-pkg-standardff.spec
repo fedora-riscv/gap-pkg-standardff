@@ -3,11 +3,11 @@
 
 Name:           gap-pkg-%{pkgname}
 Version:        0.9.4
-Release:        3%{?dist}
+Release:        3.rv64%{?dist}
 Summary:        Standardized generation of finite fields and cyclic subgroups
 
 License:        GPL-3.0-or-later
-ExclusiveArch:  aarch64 ppc64le s390x x86_64
+ExclusiveArch:  aarch64 ppc64le s390x x86_64 riscv64
 URL:            https://www.math.rwth-aachen.de/~Frank.Luebeck/gap/StandardFF/
 Source0:        https://github.com/frankluebeck/StandardFF/archive/v%{version}/%{upname}-%{version}.tar.gz
 
